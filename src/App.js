@@ -16,12 +16,12 @@ function App() {
       <Banner/>
 
       <Row 
-      title="Trending In India"
-      fetchUrl={requests.fetchTrending}
+      title="Horrer Movies"
+      fetchUrl={requests.fetchHorrorMovies}
       />
       <Row 
-      title="NetFlix Originals"
-      fetchUrl={requests.fetchNetflixOriginals}
+      title="Trending In India"
+      fetchUrl={requests.fetchTrending}
       isLargeRow={true}
       />
       <Row 
@@ -37,8 +37,8 @@ function App() {
       fetchUrl={requests.fetchComedyMovies}
       />
       <Row 
-      title="Horrer Movies"
-      fetchUrl={requests.fetchHorrorMovies}
+      title="NetFlix Originals"
+      fetchUrl={requests.fetchNetflixOriginals}
       />
       <Row 
       title="Romance"
